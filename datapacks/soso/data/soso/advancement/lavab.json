@@ -16,7 +16,7 @@
         "announce_to_chat": false,
         "hidden": false
     },
-    "parent": "soso:rootb",
+    "parent": "soso:root",
     "criteria": {
         "event28": {
             "trigger": "minecraft:enter_block",

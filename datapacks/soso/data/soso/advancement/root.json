@@ -11,14 +11,14 @@
         "description": {
             "text": "參加神秘地圖"
         },
-        "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
+        "background": "minecraft:block/stone",
         "frame": "task",
         "show_toast": true,
         "announce_to_chat": false,
         "hidden": true
     },
     "criteria": {
-        "zombie": {
+        "none": {
             "trigger": "minecraft:impossible"
         }
     }

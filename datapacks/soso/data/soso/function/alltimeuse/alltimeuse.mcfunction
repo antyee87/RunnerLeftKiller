@@ -52,5 +52,5 @@ scoreboard players set @a Qit 0
 
 
 
-execute if score 遊戲開始 zTEST matches 1 if score shopopen zTEST matches 1 unless score runman zTEST matches 1.. unless score spy zTEST matches 1.. unless score ghast zTEST matches 1.. unless score ourkill zTEST matches 1.. unless score flags zTEST matches 1.. run function soso:item/shop/t1
+execute if score 遊戲開始 zTEST matches 1 if score shopopen zTEST matches 1 unless score runman zTEST matches 1.. unless score spy zTEST matches 1.. unless score ghast zTEST matches 1.. unless score ourkill zTEST matches 1.. unless score flags zTEST matches 1.. run function soso:item/dialog_shop/t1
 function rlk:trigger/t1

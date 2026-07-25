@@ -9,13 +9,11 @@ effect clear @s
 gamemode adventure @s
 function soso:item/tagclear
 experience add @s -10000 levels
-advancement revoke @s only soso:root
-advancement grant @s only soso:rootb
+advancement grant @s only soso:root
 effect give @s minecraft:instant_health 1 198 true
 effect give @s minecraft:absorption 1 0 true
 effect give @s minecraft:regeneration 3 199 true
 team leave @s
-function soso:event/eventgive
 clear @s
 
 tellraw @a [{"text":"歡迎","color":"yellow","bold":true}," ",{"selector":"@s","color":"white","bold":false}," ",{"text":"加入逃脫升天一同遊玩","color":"yellow","bold":true}]

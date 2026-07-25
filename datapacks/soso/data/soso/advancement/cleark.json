@@ -16,7 +16,7 @@
         "announce_to_chat": false,
         "hidden": false
     },
-    "parent": "soso:rootb",
+    "parent": "soso:root",
     "criteria": {
         "asd": {
             "trigger": "minecraft:entity_hurt_player",

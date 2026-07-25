@@ -24,7 +24,7 @@
                 "damage": {
                     "type": {
                         "direct_entity": {
-                            "type": "minecraft:arrow"
+                            "entity_type": "minecraft:arrow"
                         }
                     }
                 }
@@ -32,6 +32,6 @@
         }
     },
     "rewards": {
-        "function": "soso:item/shop/shopkill"
+        "function": "soso:item/dialog_shop/shopkill"
     }
 }

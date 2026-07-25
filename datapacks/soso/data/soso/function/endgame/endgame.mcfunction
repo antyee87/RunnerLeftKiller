@@ -36,9 +36,9 @@ scoreboard players set @a team 1
 scoreboard players set * code 2
 tag @e remove on
 bossbar set minecraft:do7e players
-bossbar set minecraft:killtime players @a[team=www]
-bossbar set minecraft:runtime players @a[team=www]
-bossbar set minecraft:breaktime players @a[team=www]
+bossbar set minecraft:killtime players
+bossbar set minecraft:runtime players
+bossbar set minecraft:breaktime players
 execute as @a[team=!build] run function soso:worldspawn
 execute as @a at @e[tag=ramdon,limit=1] run spawnpoint @s ~ ~ ~
 execute as @e[tag=help] run function soso:alltimeuse/tpb

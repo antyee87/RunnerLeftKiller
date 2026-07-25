@@ -12,15 +12,3 @@ execute if score ramdon zTEST matches 2 run give @s minecraft:golden_boots[damag
 execute if score ramdon zTEST matches 2 run tellraw @a {"text":"怒火爆氣，果敢前行─抗退之靴","color":"dark_red","bold":true}
 execute if score ramdon zTEST matches 3 run give @s minecraft:potion[potion_contents={custom_color:16646020,custom_effects:[{id:"minecraft:jump_boost",amplifier:2,duration:100}]},custom_name=[{"text":""},{"text":"殺手之躍","color":"gold","bold":true}],lore=["怒火爆氣","飛上雲霄。"]]
 execute if score ramdon zTEST matches 3 run tellraw @a {"text":"怒火爆氣，飛上雲霄─殺手之躍","color":"dark_red","bold":true}
-
-
-
-
-
-
-
-
-
-
-
-
