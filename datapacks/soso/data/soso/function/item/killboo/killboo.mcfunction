@@ -1,4 +1,4 @@
-# advancement revoke @s only soso:killboo
+advancement revoke @s only soso:killboo
 execute as @s[team=Killer] if score killboo zTEST matches 1 store result bossbar minecraft:killboo value run scoreboard players add @s[tag=start] killboo 10
 execute if score killboo zTEST matches 1 if entity @s[team=Killer] run bossbar set minecraft:killboo players @a
 
