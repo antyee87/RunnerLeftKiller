@@ -1,0 +1,7 @@
+tellraw @s ["",{"text":"───────────","bold":true,"color":"gold"}]
+tellraw @s ["",{"text":"商店開啟，你現在持有貨幣為：","color":"aqua"},{"score":{"name":"@s","objective":"shop"},"color":"gold"}]
+tellraw @s ["",{"text":"《加速藥水》：","bold":true,"color":"gold","click_event":{"action":"run_command","command":"/trigger shopbuy set 1"}},{"text":"20元，90秒加速II。","color":"aqua","click_event":{"action":"run_command","command":"/trigger shopbuy set 2"}}]
+tellraw @s ["",{"text":"《抗退靴》：","bold":true,"color":"gold","click_event":{"action":"run_command","command":"/trigger shopbuy set 2"}},{"text":"30元，5耐久。","color":"aqua","click_event":{"action":"run_command","command":"/trigger shopbuy set 3"}}]
+tellraw @s ["",{"text":"《殺戮劍》：","bold":true,"color":"gold","click_event":{"action":"run_command","command":"/trigger shopbuy set 3"}},{"text":"50元，鋒利1000，1耐久。","color":"aqua","click_event":{"action":"run_command","command":"/trigger shopbuy set 4"}}]
+tellraw @s ["",{"text":"《殺手之弓》：","bold":true,"color":"gold","click_event":{"action":"run_command","command":"/trigger shopbuy set 4"}},{"text":"50元，附贈箭矢，1耐久。","color":"aqua","click_event":{"action":"run_command","command":"/trigger shopbuy set 5"}}]
+tellraw @s ["",{"text":"───────────","bold":true,"color":"gold"}]

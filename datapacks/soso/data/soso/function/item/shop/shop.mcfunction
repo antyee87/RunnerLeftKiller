@@ -1,14 +1,6 @@
-execute as @s[team=Runner] store result score @s shop run clear @s minecraft:arrow 0
-
-tellraw @s[scores={shopbuy=1}] ["",{"text":"───────────","bold":true,"color":"gold"}]
-
-execute at @s run playsound minecraft:ui.button.click block @s
-execute if score @s[team=Runner] shopbuy matches 1.. run function soso:item/shop/runner
-execute if score @s[team=Killer] shopbuy matches 1.. run function soso:item/shop/killer
+execute if entity @s[team=Runner] run function soso:item/shop/runner
+execute if entity @s[team=Killer] run function soso:item/shop/killer
+execute if score @s shopbuy matches -1 run dialog clear @s
+# execute if entity @s[scores={shopbuy=1..99}] run function soso:item/shop/chat_menu/show_menu
+execute if entity @s[scores={shopbuy=100..199}] run function soso:item/shop/dialog_menu/show_menu
 scoreboard players set @s shopbuy 0
-
-
-
-
-
-

@@ -131,35 +131,35 @@ $dialog show @s \
       "label": "治療藥水",\
       "action": {\
         "type": "minecraft:run_command",\
-        "command": "/trigger shopbuy set 2"\
+        "command": "/trigger shopbuy set 101"\
       }\
     },\
     {\
       "label": "強威劍",\
       "action": {\
         "type": "minecraft:run_command",\
-        "command": "/trigger shopbuy set 3"\
+        "command": "/trigger shopbuy set 102"\
       }\
     },\
     {\
       "label": "急速靴",\
       "action": {\
         "type": "minecraft:run_command",\
-        "command": "/trigger shopbuy set 4"\
+        "command": "/trigger shopbuy set 103"\
       }\
     },\
     {\
       "label": "抗退靴",\
       "action": {\
         "type": "minecraft:run_command",\
-        "command": "/trigger shopbuy set 5"\
+        "command": "/trigger shopbuy set 104"\
       }\
     },\
     {\
       "label": "凍結劍",\
       "action": {\
         "type": "minecraft:run_command",\
-        "command": "/trigger shopbuy set 6"\
+        "command": "/trigger shopbuy set 105"\
       }\
     }\
   ]\

@@ -115,28 +115,28 @@ $dialog show @s \
       "label": "加速藥水",\
       "action": {\
         "type": "minecraft:run_command",\
-        "command": "/trigger shopbuy set 2"\
+        "command": "/trigger shopbuy set 101"\
       }\
     },\
     {\
       "label": "抗退靴",\
       "action": {\
         "type": "minecraft:run_command",\
-        "command": "/trigger shopbuy set 3"\
+        "command": "/trigger shopbuy set 102"\
       }\
     },\
     {\
       "label": "殺戮劍",\
       "action": {\
         "type": "minecraft:run_command",\
-        "command": "/trigger shopbuy set 4"\
+        "command": "/trigger shopbuy set 103"\
       }\
     },\
     {\
       "label": "殺手之弓",\
       "action": {\
         "type": "minecraft:run_command",\
-        "command": "/trigger shopbuy set 5"\
+        "command": "/trigger shopbuy set 104"\
       }\
     },\
   ]\

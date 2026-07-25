@@ -1,0 +1,8 @@
+tellraw @s ["",{"text":"───────────","bold":true,"color":"gold"}]
+tellraw @s ["",{"text":"商店開啟，你現在持有貨幣(箭矢)為：","color":"aqua"},{"score":{"name":"@s","objective":"shop"},"color":"gold"}]
+tellraw @s ["",{"text":"《治療藥水》：","bold":true,"color":"gold","click_event":{"action":"run_command","command":"/trigger shopbuy set 1"}},{"text":"5元，恢復2顆心。","color":"aqua","click_event":{"action":"run_command","command":"/trigger shopbuy set 2"}}]
+tellraw @s ["",{"text":"《強威劍》：","bold":true,"color":"gold","click_event":{"action":"run_command","command":"/trigger shopbuy set 2"}},{"text":"5元，鋒利XXXX，5耐久。","color":"aqua","click_event":{"action":"run_command","command":"/trigger shopbuy set 3"}}]
+tellraw @s ["",{"text":"《急速靴》：","bold":true,"color":"gold","click_event":{"action":"run_command","command":"/trigger shopbuy set 3"}},{"text":"10元，加速10%，1耐久。","color":"aqua","click_event":{"action":"run_command","command":"/trigger shopbuy set 4"}}]
+tellraw @s ["",{"text":"《抗退靴》：","bold":true,"color":"gold","click_event":{"action":"run_command","command":"/trigger shopbuy set 4"}},{"text":"30元，不被擊退，10耐久。","color":"aqua","click_event":{"action":"run_command","command":"/trigger shopbuy set 5"}}]
+tellraw @s ["",{"text":"《凍結劍》：","bold":true,"color":"gold","click_event":{"action":"run_command","command":"/trigger shopbuy set 5"}},{"text":"30元，停止殺手行動2秒，1耐久。","color":"aqua","click_event":{"action":"run_command","command":"/trigger shopbuy set 6"}}]
+tellraw @s ["",{"text":"───────────","bold":true,"color":"gold"}]

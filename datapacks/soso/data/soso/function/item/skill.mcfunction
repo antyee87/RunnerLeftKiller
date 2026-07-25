@@ -15,7 +15,7 @@ execute if items entity @s contents *[custom_data~{teamRon:1b}] at @s run tp @a[
 execute if items entity @s contents *[custom_data~{flykill:1b}] run kill @s
 
 
-execute if items entity @s contents *[custom_data~{shopopen:1b}] at @s run scoreboard players set @p[scores={Qit=1..}] shopbuy 1
+execute if items entity @s contents *[custom_data~{shopopen:1b}] at @s as @p[scores={Qit=1..}] run function soso:item/shop/chat_menu/show_menu
 
 execute if items entity @s contents *[custom_data~{flagsitem:1b}] run data merge entity @s {Tags:["downitem"],Glowing:1b}
 

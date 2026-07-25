@@ -32,6 +32,6 @@
         }
     },
     "rewards": {
-        "function": "soso:item/dialog_shop/shopkill"
+        "function": "soso:item/shop/shopkill"
     }
 }
