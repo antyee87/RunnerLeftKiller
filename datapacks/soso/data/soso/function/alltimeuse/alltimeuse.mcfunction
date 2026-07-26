@@ -21,7 +21,7 @@ execute as @a[scores={fish=1..}] at @s run function soso:skill/fish
 
 
 execute as @e[type=minecraft:item,tag=!downitem] at @s run function soso:item/skill
-execute as @a[scores={used_carrot_on_a_stick=1..}] run function soso:item/shop/dialog_menu/show_menu
+execute as @a[scores={used_carrot_on_a_stick=1..}] if items entity @s weapon.mainhand *[custom_data~{shopopen:1b}] run function soso:item/shop/dialog_menu/show_menu
 scoreboard players set @a[scores={used_carrot_on_a_stick=1..}] used_carrot_on_a_stick 0
 
 tag @e remove resetok
