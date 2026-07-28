@@ -22,7 +22,7 @@
             "trigger": "minecraft:entity_killed_player",
             "conditions": {
                 "entity": {
-                    "type": "minecraft:zombie"
+                    "minecraft:entity_type": "minecraft:zombie"
                 }
             }
         }

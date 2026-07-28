@@ -24,7 +24,7 @@
                 "damage": {
                     "type": {
                         "direct_entity": {
-                            "type": "minecraft:arrow"
+                            "minecraft:entity_type": "minecraft:arrow"
                         }
                     }
                 }
