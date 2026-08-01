@@ -12,7 +12,7 @@
             "text": "打一下會怎樣喔030"
         },
         "frame": "challenge",
-        "show_toast": false,
+        "show_toast": true,
         "announce_to_chat": false,
         "hidden": false
     },
@@ -23,7 +23,7 @@
             "conditions": {
                 "damage": {
                     "source_entity": {
-                        "entity_type": "minecraft:player"
+                        "minecraft:entity_type": "minecraft:player"
                     }
                 }
             }
